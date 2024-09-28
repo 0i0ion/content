@@ -3,9 +3,8 @@ import logging
 from operator import add
 from logging.handlers import RotatingFileHandler
 
-REQUEST1 = os.environ.get("REQUEST1", "https://t.me/+LWJv7cjURvoyYWU1")
-REQUEST2 = os.environ.get("REQUEST2", "https://t.me/+R6xc_7a0yX4xYzVl")
-REQUEST3 = os.environ.get("REQUEST3", "https://t.me/+8VAw59oqzds3Njk1")
+REQUEST1 = os.environ.get("REQUEST1", "https://t.me/+7nH3rPTjXdNkYzc1")
+REQUEST2 = os.environ.get("REQUEST2", "https://t.me/+NbwZkqpkctRmZTZl")
 
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6737569405:AAH7tH0Hrax_8M-8SiN2s4UzD--SLS1Mdxc") #@Hentai
 APP_ID = int(os.environ.get("APP_ID", "25695562"))
