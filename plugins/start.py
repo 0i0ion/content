@@ -27,8 +27,7 @@ from config import (
     TUT_VID,
     OWNER_ID,
     REQUEST1,
-    REQUEST2,
-    REQUEST3
+    REQUEST2
 )
 from database.token_db import *
 from database.database import add_user, del_user, full_userbase, present_user, fsub
@@ -183,7 +182,6 @@ async def not_joined(client: Client, message: Message):
     # Add static buttons for REQUEST1 and REQUEST2 and REQUEST3
     buttons.append(InlineKeyboardButton("Join 1", url=REQUEST1))
     buttons.append(InlineKeyboardButton("Join 2", url=REQUEST2))
-    buttons.append(InlineKeyboardButton("Join 3", url=REQUEST3))
     
     # Iterate through each force subscription channel
     for idx, force_sub_channel in enumerate(force_sub_channels, start=4):
