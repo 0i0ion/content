@@ -6,7 +6,7 @@ from logging.handlers import RotatingFileHandler
 REQUEST1 = os.environ.get("REQUEST1", "https://t.me/+LWJv7cjURvoyYWU1")
 REQUEST2 = os.environ.get("REQUEST2", "https://t.me/+R6xc_7a0yX4xYzVl")
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7227898838:AAHyQDM35NXDNSEr8-xe6vi8W06UktxsWo8") #@Contentprovider_ebot
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7227898838:AAHk592xgN0I61eA1JwHnv5bFYbzn-WCYS8") #@elixir1
 APP_ID = int(os.environ.get("APP_ID", "25695562"))
 API_HASH = os.environ.get("API_HASH", "0b691c3e86603a7e34aae0b5927d725a")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001902545745"))
@@ -14,7 +14,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1895952308"))
 
 PORT = os.environ.get("PORT", "8080")
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://skiliggeeXporter:skiliggeeXporter@cluster0.tdxtakc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "AdultElixir")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "kingurl.in")
