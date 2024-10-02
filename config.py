@@ -6,7 +6,7 @@ from logging.handlers import RotatingFileHandler
 REQUEST1 = os.environ.get("REQUEST1", "https://t.me/+7nH3rPTjXdNkYzc1")
 REQUEST2 = os.environ.get("REQUEST2", "https://t.me/+NbwZkqpkctRmZTZl")
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6737569405:AAH7tH0Hrax_8M-8SiN2s4UzD--SLS1Mdxc") #@Hentai
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6737569405:AAHwpHE4G_DTwP0vmFYdS1j9pU8DgOpF2ao") #@Hentai
 APP_ID = int(os.environ.get("APP_ID", "25695562"))
 API_HASH = os.environ.get("API_HASH", "0b691c3e86603a7e34aae0b5927d725a")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001929558021"))
